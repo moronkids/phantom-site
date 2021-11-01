@@ -6,6 +6,7 @@ const BarMobile = React.lazy(() => import("components/Layouts/BarMobile"));
 const NavbarMobile = React.lazy(() =>
   import("components/Layouts/NavbarMobile")
 );
+const Footer = React.lazy(() => import("components/Layouts/Footer"));
 
 function Index(props) {
   const { setScroll, scroll, timer, setTimer } = useContext(Hooks);
@@ -28,6 +29,9 @@ function Index(props) {
           )}
         </Suspense>
         {props.children}
+        <Suspense fallback={""}>
+          <Footer />
+        </Suspense>
       </div>
     </>
   );

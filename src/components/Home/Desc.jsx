@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Roadmap from "assets/img/roadmap.jpg";
 import Pizza from "assets/img/pizza.png";
-
+import gif_pizza from "assets/img/pizzaz.gif";
 import Fade from "react-reveal/Fade";
 import { Hooks } from "providers";
 function Desc() {
@@ -31,10 +31,10 @@ function Desc() {
                   >
                     {/* <a href="https://imgbb.com/"><img src="https://i.ibb.co/h94V2dv/pizza.png" alt="pizza" border="0"></a> */}
                     <img
-                      src="https://i.ibb.co/h94V2dv/pizza.png"
+                      src={gif_pizza}
                       alt=""
                       srcset=""
-                      height="100px"
+                      height="150px"
                       width="auto"
                       style={{
                         // position: "absolute",
