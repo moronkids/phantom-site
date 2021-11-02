@@ -38,7 +38,7 @@ export default function SinglePage(props) {
           //   : { url: "https://phantom-site-gamma.vercel.app/nft-pizza.pdf" }
         }
         options={{ workerSrc: "/pdf.worker.min.js" }}
-        onLoadSuccess={() => onDocumentLoadSuccess}
+        onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />
       </Document>
