@@ -40,7 +40,7 @@ function Navbar() {
             {/* </span> */}
             {/* </li> */}
             <li>
-              <a href={pdf} target="_blank" rel="noreferrer">
+              <a href="/menu" target="_blank" rel="noreferrer">
                 MENU
               </a>
             </li>
