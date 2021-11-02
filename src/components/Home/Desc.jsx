@@ -65,16 +65,16 @@ function Desc() {
               <li>
                 <div
                   className="flex-only"
-                  // style={{
-                  //   display: "flex",
-                  //   justifyContent: "space-between",
-                  // }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
                 >
                   <p>
-                    NFT Pizza Slice = 0.99 SOL <br /> Unique Pizza Slice <br />{" "}
-                    Earning will build the first NFT Physical Pizzeria in the
-                    world <br /> Lucky Members will be able to customize their
-                    NFT Pizza Slice
+                    <div className="title"> NFT Pizza Slice = 0.99 SOL </div>
+                    <br /> 1. Unique Pizza Slice <br /> 2. Earning will build
+                    the first NFT Physical Pizzeria in the world <br /> 3. Lucky
+                    Members will be able to customize their NFT Pizza Slice
                   </p>
                   <img
                     src={gif_pizza}
