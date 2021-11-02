@@ -34,7 +34,7 @@ export default function SinglePage(props) {
         file={
           process.env.REACT_APP_ENV === "dev"
             ? pdf
-            : { url: "https://phantom-site-gamma/nft-pizza.pdf" }
+            : { url: "https://phantom-site-gamma.vercel.app/nft-pizza.pdf" }
         }
         options={{ workerSrc: "/pdf.worker.min.js" }}
         onLoadSuccess={() => onDocumentLoadSuccess}
