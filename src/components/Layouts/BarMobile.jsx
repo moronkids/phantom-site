@@ -12,9 +12,9 @@ function BarMobile() {
         <ul>
           <li>
             <Link
-              to="/menu-mobile"
+              to="/menu"
               target="_blank"
-              onClick={() => setBarMobile(!barMobile)}
+              // onClick={() => setBarMobile(!barMobile)}
             >
               Menu
             </Link>

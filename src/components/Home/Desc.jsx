@@ -3,6 +3,7 @@ import Roadmap from "assets/img/roadmap.jpg";
 import Pizza from "assets/img/pizza.png";
 import gif_pizza from "assets/img/pizzaz.gif";
 import Fade from "react-reveal/Fade";
+import Img2 from "assets/img/img-logo-desc-2.png";
 import { Hooks } from "providers";
 function Desc() {
   const { barMobile, setBarMobile } = useContext(Hooks);
@@ -77,7 +78,7 @@ function Desc() {
                     Members will be able to customize their NFT Pizza Slice
                   </p>
                   <img
-                    src={gif_pizza}
+                    src={Img2}
                     alt=""
                     srcset=""
                     height="250px"
