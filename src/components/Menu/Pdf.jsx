@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
+
 import pdf from "assets/nft-pizza.pdf";
 import { pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -30,9 +31,9 @@ export default function SinglePage(props) {
   return (
     <>
       <Document
-        file={pdf}
-        options={{ workerSrc: "/pdf.worker.js" }}
-        onLoadSuccess={onDocumentLoadSuccess}
+        file={process.env.REACT_APP_ENV === "dev" ? pdf : "/nft-pizza.pdf"}
+        options={{ workerSrc: "/pdf.worker.min.js" }}
+        onLoadSuccess={() => onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />
       </Document>

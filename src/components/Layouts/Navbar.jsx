@@ -23,23 +23,21 @@ function Navbar() {
           }}
         >
           <ul className="">
-            <div style={{ display: "none" }}>
-              {/* <Connect /> */}
-            </div>
+            <div style={{ display: "none" }}>{/* <Connect /> */}</div>
 
             {/* <li style={{
               display: wallet_ ? 'none' : 'display'
             }}> */}
-              {/* <span
+            {/* <span
                 onClick={() => (
                   <>
                     <Connect />
                   </>
                 )}
               > */}
-                {/* Connect Wallet */}
-                {!wallet_ && (<Connect/>)}
-              {/* </span> */}
+            {/* Connect Wallet */}
+            {!wallet_ && <Connect />}
+            {/* </span> */}
             {/* </li> */}
             <li>
               <a href={pdf} target="_blank" rel="noreferrer">
