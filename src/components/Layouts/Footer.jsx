@@ -15,10 +15,10 @@ function Footer() {
             <img src={Icon} alt="" srcset="" width="180" height="auto" />
           </div>
           <div className="content3">
-            <a href="http://">
+            <a href="https://discord.gg/6rgah5JmAz">
               <img src={Discord} alt="" width="30" />
             </a>
-            <a href="http://">
+            <a href="https://twitter.com/NFTPizzeria">
               <img src={Twitter} alt="" width="30" />
             </a>
           </div>

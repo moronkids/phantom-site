@@ -8,10 +8,34 @@ function Banner() {
         <div className="link-ext">
           <ul>
             <li>
-              <img src={Twitter} alt="" srcset="" width="64px" height="64px" />
+              <a
+                href="https://discord.gg/6rgah5JmAz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={Twitter}
+                  alt=""
+                  srcset=""
+                  width="64px"
+                  height="64px"
+                />
+              </a>
             </li>
             <li>
-              <img src={Discord} alt="" srcset="" width="64px" height="64px" />
+              <a
+                href="https://twitter.com/NFTPizzeria"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={Discord}
+                  alt=""
+                  srcset=""
+                  width="64px"
+                  height="64px"
+                />
+              </a>
             </li>
           </ul>
         </div>
