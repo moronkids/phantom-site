@@ -31,7 +31,11 @@ export default function SinglePage(props) {
   return (
     <>
       <Document
-        file={process.env.REACT_APP_ENV === "dev" ? pdf : "/nft-pizza.pdf"}
+        file={
+          process.env.REACT_APP_ENV === "dev"
+            ? pdf
+            : { url: "https://phantom-site-gamma/nft-pizza.pdf" }
+        }
         options={{ workerSrc: "/pdf.worker.min.js" }}
         onLoadSuccess={() => onDocumentLoadSuccess}
       >
