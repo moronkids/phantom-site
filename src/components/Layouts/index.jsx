@@ -29,9 +29,11 @@ function Index(props) {
           )}
         </Suspense>
         {props.children}
-        <Suspense fallback={""}>
-          <Footer />
-        </Suspense>
+        {!timer && (
+          <Suspense fallback={""}>
+            <Footer />
+          </Suspense>
+        )}
       </div>
     </>
   );

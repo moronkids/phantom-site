@@ -34,7 +34,7 @@ function Desc() {
                       src={gif_pizza}
                       alt=""
                       srcset=""
-                      height="150px"
+                      height="250px"
                       width="auto"
                       style={{
                         // position: "absolute",
@@ -59,19 +59,42 @@ function Desc() {
               </li>
             </Fade>
             <Fade bottom>
-              <div className="title" style={{ textAlign: "center" }}>
+              <div className="title-out" style={{ textAlign: "center" }}>
                 <i>"Pizza isn’t a trend, it’s a way of life"</i>
               </div>
               <li>
-                <p>
-                  NFT Pizza Slice = 0.99 SOL <br /> Unique Pizza Slice <br />{" "}
-                  Earning will build the first NFT Physical Pizzeria in the
-                  world <br /> Lucky Members will be able to customize their NFT
-                  Pizza Slice
-                </p>
+                <div
+                  className="flex-only"
+                  // style={{
+                  //   display: "flex",
+                  //   justifyContent: "space-between",
+                  // }}
+                >
+                  <p>
+                    NFT Pizza Slice = 0.99 SOL <br /> Unique Pizza Slice <br />{" "}
+                    Earning will build the first NFT Physical Pizzeria in the
+                    world <br /> Lucky Members will be able to customize their
+                    NFT Pizza Slice
+                  </p>
+                  <img
+                    src={gif_pizza}
+                    alt=""
+                    srcset=""
+                    height="250px"
+                    width="auto"
+                    style={{
+                      // position: "absolute",
+                      // top: "-10px",
+                      padding: "20px",
+                    }}
+                  />
+                </div>
               </li>
             </Fade>
             <Fade bottom>
+              <div className="title-out" style={{ textAlign: "center" }}>
+                <i>"A slice a day keeps the sad away"</i>
+              </div>
               <li>
                 <div className="title">
                   Focus 100% on the NFT Pizzeria Holders
@@ -83,6 +106,22 @@ function Desc() {
                   will help the team decided the location and the design of the
                   first Physical NFT Pizzeria restaurant. Also, they will earn
                   profit from it. <br />
+                  <div className="flex-only">
+                    <img
+                      src={gif_pizza}
+                      alt=""
+                      srcset=""
+                      height="250px"
+                      width="auto"
+                      style={{
+                        // position: "absolute",
+                        // top: "-10px",
+                        display: "flex",
+                        padding: "20px",
+                        margin: "0 auto",
+                      }}
+                    />
+                  </div>
                   <br /> Each Pizza Slice is different since all are uniquely
                   generated with more than 100+ attributes. The first 100 people
                   to join the server will have the possibility to customize
@@ -95,7 +134,7 @@ function Desc() {
               </li>
             </Fade>
             <Fade bottom>
-              <div className="title" style={{ textAlign: "center" }}>
+              <div className="title-out" style={{ textAlign: "center" }}>
                 <i>
                   "LONG TERM MIDSET: the best NFT investment you can ever make."
                 </i>

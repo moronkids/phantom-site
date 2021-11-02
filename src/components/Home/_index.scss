@@ -95,6 +95,7 @@
     }
     p {
       line-height: 160%;
+      font-size: 19px;
     }
     img {
       border-radius: 35px;
@@ -130,9 +131,11 @@
       @media (max-width: 524px) {
         display: block;
         margin: 0 auto;
+        text-align: center;
         // text-align: center;
         img {
           width: 200px !important;
+          height: auto;
         }
       }
 
@@ -145,6 +148,7 @@
   }
   &-faq {
     @extend .home-desc;
+    font-size: 16px;
     display: block;
     // background-color: rgb(248, 255, 253);
     hr {
