@@ -9,9 +9,9 @@ function Banner() {
           <ul>
             <li>
               <a
-                href="https://discord.gg/6rgah5JmAz"
                 target="_blank"
                 rel="noreferrer"
+                href="https://twitter.com/NFTPizzeria"
               >
                 <img
                   src={Twitter}
@@ -24,7 +24,7 @@ function Banner() {
             </li>
             <li>
               <a
-                href="https://twitter.com/NFTPizzeria"
+                href="https://discord.gg/6rgah5JmAz"
                 target="_blank"
                 rel="noreferrer"
               >
