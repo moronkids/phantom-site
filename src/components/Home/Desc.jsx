@@ -137,7 +137,8 @@ function Desc() {
             <Fade bottom>
               <div className="title-out" style={{ textAlign: "center" }}>
                 <i>
-                  "LONG TERM MIDSET: the best NFT investment you can ever make."
+                  "LONG TERM MINDSET: the best NFT investment you can ever
+                  make."
                 </i>
               </div>
               <li>

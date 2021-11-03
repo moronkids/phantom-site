@@ -44,4 +44,7 @@ li:before {
 .title-out {
   @extend .title;
   font-size: 35px;
+  @media (max-width: 524px) {
+    font-size: 28px;
+  }
 }
