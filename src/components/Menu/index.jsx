@@ -17,11 +17,10 @@ function Index() {
       {wallet_ && (
         <div className="menu-purchase">
           <div className="menu-purchase__box">
-
             <p>DROP IS LIVE</p>
             <div>
               <h1>{datas?.[0] + "/" + datas?.[1]}</h1>
-              <h2>DUCKS REMAINING</h2>
+              <h2>PIZZA REMAINING</h2>
             </div>
             {/* <div style={{
               display : wallet_ ? 'display' : 'none'
@@ -29,7 +28,7 @@ function Index() {
             {/* </div> */}
             {/* <div className="menu-purchase__btn connect">PURCHASE</div> */}
 
-          <Connect/>
+            <Connect />
           </div>
         </div>
       )}
