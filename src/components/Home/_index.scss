@@ -95,7 +95,10 @@
     }
     p {
       line-height: 160%;
-      font-size: 19px;
+      font-size: 21px;
+      @media (max-width: 524px) {
+        font-size: 18px;
+      }
     }
     img {
       border-radius: 35px;
