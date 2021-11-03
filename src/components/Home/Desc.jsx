@@ -75,7 +75,10 @@ function Desc() {
                     <div className="title"> NFT Pizza Slice = 0.99 SOL </div>
                     <br /> 1. Unique Pizza Slice <br /> 2. Earning will build
                     the first NFT Physical Pizzeria in the world <br /> 3. Lucky
-                    Members will be able to customize their NFT Pizza Slice
+                    Members will be able to customize their NFT Pizza Slice{" "}
+                    <br />
+                    4. Enter the revolutionary world of Metaverse by selling the
+                    first digital pizza slice to Mark Zuckerberg.
                   </p>
                   <img
                     src={Img2}
