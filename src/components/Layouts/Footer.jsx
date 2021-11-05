@@ -8,11 +8,14 @@ function Footer() {
       <div className="footer">
         <div className="footer-wrap">
           <div className="content1">
-            <p class="title">NFT PIZZERIA</p>
-            <p>Copyright © 2021 NFT Pizzeria</p>
+            <p class="title">7 Deadly Sins</p>
+            <p>
+              Copyright © 7 Deadly Sins powered by{" "}
+              <span style={{ color: "#6aff6a" }}>Solana</span>
+            </p>
           </div>
           <div className="content2">
-            <img src={Icon} alt="" srcset="" width="180" height="auto" />
+            {/* <img src={Icon} alt="" srcset="" width="180" height="auto" /> */}
           </div>
           <div className="content3">
             <a href="https://discord.gg/6rgah5JmAz">

@@ -3,8 +3,15 @@
   display: inline-flex;
   position: fixed;
   flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
   @media (max-width: 524px) {
     display: none;
+  }
+  img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
   // margin-right: 100px;
   ul {

@@ -5,7 +5,7 @@ function Banner() {
   return (
     <>
       <div className="home-banner">
-        <div className="link-ext">
+        {/* <div className="link-ext">
           <ul>
             <li>
               <a
@@ -38,7 +38,7 @@ function Banner() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -5,7 +5,8 @@ import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 import pdf from "assets/nft-pizza.pdf";
 import styled from "styled-components";
 import Connect from "components/Transactions";
-
+import Discord from "assets/img/icons8-discord.svg";
+import Twitter from "assets/img/icons8-twitter.svg";
 function Navbar() {
   const { setScroll, scroll, barMobile, setBarMobile, wallet_, setWallet_ } =
     useContext(Hooks);
@@ -24,21 +25,7 @@ function Navbar() {
         >
           <ul className="">
             <div style={{ display: "none" }}>{/* <Connect /> */}</div>
-
-            {/* <li style={{
-              display: wallet_ ? 'none' : 'display'
-            }}> */}
-            {/* <span
-                onClick={() => (
-                  <>
-                    <Connect />
-                  </>
-                )}
-              > */}
-            {/* Connect Wallet */}
-            {!wallet_ && <Connect />}
-            {/* </span> */}
-            {/* </li> */}
+            {/* {!wallet_ && <Connect />} */}
             <li>
               <a href="/menu" target="_blank" rel="noreferrer">
                 MENU
@@ -49,6 +36,16 @@ function Navbar() {
             </li>
             <li>
               <a href="#home-faq">FAQ</a>
+            </li>
+            <li>
+              <a href="#home-faq">
+                <img src={Twitter} alt="" width="25" />
+              </a>
+            </li>
+            <li>
+              <a href="#home-faq">
+                <img src={Discord} alt="" width="25" />
+              </a>
             </li>
           </ul>
         </div>

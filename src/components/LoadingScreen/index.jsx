@@ -5,7 +5,8 @@ function Index() {
     <>
       <div className="loading-screen">
         <div className="container">
-          <div className="logos-gif"></div>
+          {/* <div className="logos-gif"></div> */}
+          Fetching data...
         </div>
       </div>
     </>
