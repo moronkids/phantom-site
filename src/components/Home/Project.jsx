@@ -5,11 +5,11 @@ function Faq() {
   return (
     <>
       <div
-        className="home-project d-flex flex-column m-auto w-50"
+        className="home-project d-flex flex-column m-auto w-sm-50 w-100"
         id="home-project"
       >
         {/* <hr /> */}
-        <div>
+        <div className="text-center">
           <h1>PROJECT SEVEN DEADLY SINS</h1>
         </div>
         <div className="wrap  mx-au">
@@ -19,13 +19,7 @@ function Faq() {
             back to the Himalayas. <br /> The winners can either choose to
             receive $10k or the full adventure trip to Himalayas.
           </div>
-          <div className="img">
-            <img
-              src="https://solyetis.io/assets/images/TRAVEL-min.png"
-              alt=""
-              srcset=""
-            />
-          </div>
+          <div className="img"></div>
         </div>
       </div>
     </>

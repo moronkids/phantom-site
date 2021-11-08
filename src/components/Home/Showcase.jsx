@@ -26,7 +26,7 @@ function Faq() {
         </div>
         <div className="show w-100 d-flex mx-auto">
           <Swiper
-            spaceBetween={10}
+            spaceBetween={8}
             slidesPerView={1}
             loop={true}
             centeredSlides
@@ -42,7 +42,7 @@ function Faq() {
                 spaceBetween: 40,
               },
               "@1.50": {
-                slidesPerView: 4,
+                slidesPerView: 5,
                 spaceBetween: 50,
               },
             }}

@@ -10,7 +10,7 @@ function Desc() {
   return (
     <>
       <div className="home-desc" id="home-desc">
-        <div className="container d-md-flex d-block">
+        <div className="container d-flex flex-column-reverse flex-md-row mx-auto justify-content-center align-items-center">
           <div className="col-md-6 col-12">
             <h1 className="text-left super">7DEADLY SINS</h1>
             We are all controlled by the Seven Deadly Sins - Envy, Sloth, Lust,
@@ -26,7 +26,7 @@ function Desc() {
             crypto collection while spreading awareness about the seven sins of
             humanity through this radical new form of art.
           </div>
-          <div className="col-md-6 col-12">
+          <div className="p-0 m-0 col-md-6 col-12 d-flex mx-auto w-100 justify-content-center align-items-center">
             <img src="https://solyetis.io/assets/images/solyetis.gif" alt="" />
           </div>
         </div>
