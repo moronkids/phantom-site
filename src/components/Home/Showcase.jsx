@@ -14,7 +14,7 @@ function Faq() {
   return (
     <>
       <div
-        className="home-showcase flex-column"
+        className="p-0 m-0 home-showcase flex-column"
         id="home-faq"
         style={{
           maxWidth: "100vw",

@@ -5,9 +5,9 @@ import Twitter from "assets/img/icons8-twitter.svg";
 function Footer() {
   return (
     <>
-      <div className="footer ">
-        <div className="footer-wrap m-sm-0 m-2">
-          <div className="content1 ">
+      <div className="footer">
+        <div className="footer-wrap">
+          <div className="content1">
             <p class="title">7 Deadly Sins</p>
             <p>
               Copyright © 7 Deadly Sins powered by{" "}
@@ -17,7 +17,7 @@ function Footer() {
           <div className="content2">
             {/* <img src={Icon} alt="" srcset="" width="180" height="auto" /> */}
           </div>
-          <div className="content3 p-sm-0 py-2">
+          <div className="content3">
             <a href="https://discord.gg/6rgah5JmAz">
               <img src={Discord} alt="" width="30" />
             </a>
