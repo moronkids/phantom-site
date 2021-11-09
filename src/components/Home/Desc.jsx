@@ -5,6 +5,7 @@ import gif_pizza from "assets/img/pizzaz.gif";
 import Fade from "react-reveal/Fade";
 import Img2 from "assets/img/img-logo-desc-2.png";
 import { Hooks } from "providers";
+import url3 from "assets/img/sevenDeadlySins/icons/GREED.webp";
 function Desc() {
   const { barMobile, setBarMobile } = useContext(Hooks);
   return (
@@ -29,7 +30,7 @@ function Desc() {
             humanity through this radical new form of art.
           </div>
           <div className="p-0 m-0 col-md-6 col-12 d-flex mx-auto w-100 justify-content-center align-items-center">
-            <img src="https://solyetis.io/assets/images/solyetis.gif" alt="" />
+            <img src={url3} alt="" />
           </div>
         </div>
       </div>

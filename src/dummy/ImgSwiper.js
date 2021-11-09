@@ -1,10 +1,10 @@
-import url1 from "assets/img/sevenDeadlySins/icons/771.webp";
-import url2 from "assets/img/sevenDeadlySins/icons/772.webp";
-import url3 from "assets/img/sevenDeadlySins/icons/773.webp";
-import url4 from "assets/img/sevenDeadlySins/icons/774.webp";
-import url5 from "assets/img/sevenDeadlySins/icons/775.webp";
-import url6 from "assets/img/sevenDeadlySins/icons/776.webp";
-import url7 from "assets/img/sevenDeadlySins/icons/777.webp";
+import url1 from "assets/img/sevenDeadlySins/icons/ENVY.webp";
+import url2 from "assets/img/sevenDeadlySins/icons/GLUTTONY.webp";
+import url3 from "assets/img/sevenDeadlySins/icons/GREED.webp";
+import url4 from "assets/img/sevenDeadlySins/icons/LUST.webp";
+import url5 from "assets/img/sevenDeadlySins/icons/PRIDE.webp";
+import url6 from "assets/img/sevenDeadlySins/icons/SLOTH.webp";
+import url7 from "assets/img/sevenDeadlySins/icons/WRATH.webp";
 const Img = [
   {
     url: url1,
