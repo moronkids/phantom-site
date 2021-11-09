@@ -27,9 +27,9 @@ function Banner() {
           </div> */}
           <div className="box">
             <div className="text">LAUNCHED ON : 13th October 9:30PM UTC</div>
-            <div className="text">
-              {wallet_ && datas?.[0] + "/" + datas?.[1]}
-            </div>
+            {wallet_ && (
+              <div className="text">{datas?.[0] + "/" + datas?.[1]}</div>
+            )}
             <div className="stat">
               {!wallet_ && <Connect />}
               {wallet_ && <Connect />}
