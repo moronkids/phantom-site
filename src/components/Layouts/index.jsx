@@ -20,20 +20,17 @@ function Index(props) {
     <>
       <div style={{ overflow: "auto" }}>
         <Suspense fallback={""}>
-          {!timer && (
-            <>
-              <BarMobile />
-              <Navbar />
-              <NavbarMobile />
-            </>
-          )}
+          <>
+            <BarMobile />
+            <Navbar />
+            <NavbarMobile />
+          </>
         </Suspense>
         {props.children}
-        {!timer && (
-          <Suspense fallback={""}>
-            <Footer />
-          </Suspense>
-        )}
+
+        <Suspense fallback={""}>
+          <Footer />
+        </Suspense>
       </div>
     </>
   );

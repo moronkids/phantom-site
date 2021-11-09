@@ -10,7 +10,7 @@ function NavbarMobile() {
       <div className="navbar-mobile">
         <nav role="navigation">
           <div>
-            {!wallet_ && <Connect />}
+            {/* {!wallet_ && <Connect />} */}
             {/* <a href="http://">
               <span className="connect">Connect Wallet</span>
             </a> */}

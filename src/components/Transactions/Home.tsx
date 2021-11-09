@@ -20,11 +20,11 @@ import {
 import { Hooks } from "providers";
 
 const ConnectButton = styled(WalletDialogButton)`
-    border-radius: 25px !important;
+    box-shadow: unset !important;
     padding: 8px 15px !important;
-    background-color: orange !important;
-        font-family: "Signika", sans-serif !important;
-        font-size: 20px !important;
+    background-color: unset !important;
+        font-family: "Poppins", sans-serif !important;
+        font-size: 22px !important;
     color: white !important;
     `;
 
@@ -206,17 +206,13 @@ const Home = (props: HomeProps) => {
             variant="contained"
             style={{
               // margin-top: 20px !important;
-    width: '100%',
-    backgroundColor: 'orange',
-    height: '40px',
-    borderRadius: '10px',
-    margin: '0 auto',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '30px 0px',
-    color: 'white',
-    fontFamily :'Fira Code, monospace'
+              width: '100%',
+              backgroundColor: 'unset',
+              boxShadow: 'unset',
+              fontStyle: 'bold',
+              fontSize: '22px',
+              color: 'white',
+              fontFamily: 'Poppins, sans-serif'
             }}
           >
             {isSoldOut ? (
