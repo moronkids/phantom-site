@@ -11,8 +11,10 @@ function Desc() {
     <>
       <div className="home-desc" id="home-desc">
         <div className="container d-flex flex-column-reverse flex-md-row mx-auto justify-content-center align-items-center">
-          <div className="col-md-6 col-12">
-            <h1 className="text-left super">7DEADLY SINS</h1>
+          <div className="col-md-6 col-12 text-md-left text-center">
+            <h1 className="text-left super mb-md-4 mb-0 text-md-left text-center">
+              7DEADLY SINS
+            </h1>
             We are all controlled by the Seven Deadly Sins - Envy, Sloth, Lust,
             Pride, Wrath, Gluttony, and Greed. Only the selfless have the
             potential to earn redemption from these sins that have forever been
