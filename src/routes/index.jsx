@@ -13,9 +13,9 @@ const Routes = () => {
     <>
       <Switch>
         {/* guest routes */}
-        <GuestRoutes exact path="/menu" component={Menu} />
-        <GuestRoutes exact path="/menu-mobile" component={Menu} />
-        <GuestRoutes exact path="/connect" component={Connect} />
+        {/* <GuestRoutes exact path="/menu" component={Menu} /> */}
+        {/* <GuestRoutes exact path="/menu-mobile" component={Menu} /> */}
+        {/* <GuestRoutes exact path="/connect" component={Connect} /> */}
         <GuestRoutes exact path="/" component={Home} />
       </Switch>
     </>
