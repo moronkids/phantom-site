@@ -65,7 +65,7 @@ function Index() {
         >
           <Roadmap />
         </div>
-        <div
+        {/* <div
           className=""
           style={{
             background: "#000000",
@@ -76,7 +76,7 @@ function Index() {
           }}
         >
           <Team />
-        </div>
+        </div> */}
         <div
           className=""
           style={{

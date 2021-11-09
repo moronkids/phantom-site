@@ -1,18 +1,31 @@
+import url1 from "assets/img/sevenDeadlySins/icons/771.webp";
+import url2 from "assets/img/sevenDeadlySins/icons/772.webp";
+import url3 from "assets/img/sevenDeadlySins/icons/773.webp";
+import url4 from "assets/img/sevenDeadlySins/icons/774.webp";
+import url5 from "assets/img/sevenDeadlySins/icons/775.webp";
+import url6 from "assets/img/sevenDeadlySins/icons/776.webp";
+import url7 from "assets/img/sevenDeadlySins/icons/777.webp";
 const Img = [
   {
-    url: "https://solyetis.io/assets/images/showcase/1.jpg",
+    url: url1,
   },
   {
-    url: "https://solyetis.io/assets/images/showcase/2.jpg",
+    url: url2,
   },
   {
-    url: "https://solyetis.io/assets/images/showcase/3.jpg",
+    url: url3,
   },
   {
-    url: "https://solyetis.io/assets/images/showcase/4.jpg",
+    url: url4,
   },
   {
-    url: "https://solyetis.io/assets/images/showcase/5.jpg",
+    url: url5,
+  },
+  {
+    url: url6,
+  },
+  {
+    url: url7,
   },
 ];
 
