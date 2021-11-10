@@ -23,7 +23,7 @@ function Faq() {
         <div>
           <h1>SHOWCASE</h1>
         </div>
-        <div className="show w-100 d-flex mx-auto p-sm-0 px-4">
+        <div className="show w-100 d-flex mx-auto">
           <Swiper
             spaceBetween={6}
             slidesPerView={1}
