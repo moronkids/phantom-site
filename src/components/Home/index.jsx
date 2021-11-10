@@ -15,21 +15,24 @@ function Index() {
 
   return (
     <div>
-      <div>
+      <div className="wrap-body">
         <Zoom top>
           <Banner />
         </Zoom>
         {/* <Menu /> */}
 
         <div
+          id="home-desc"
           className=""
           style={{
-            background: "#000000",
+            background: "rgb(40 40 40)",
+            paddingTop: "30px",
           }}
         >
           <Desc />
         </div>
         <div
+          id="home-project"
           className=""
           style={{
             background: "#f5f5f5",
@@ -41,11 +44,13 @@ function Index() {
         >
           <Project />
         </div>
+
         <div
+          id="home-showcase"
           className=""
           style={{
             background: "#000000",
-            paddingTop: "30px",
+            marginTop: "30px",
             paddingBottom: "70px",
             borderTopLeftRadius: "20px",
             borderTopRightRadius: "20px",
@@ -53,11 +58,13 @@ function Index() {
         >
           <ShowCase />
         </div>
+
         <div
+          id="home-roadmap"
           className=""
           style={{
             background: "rgb(18 18 18 / 0%)",
-            paddingTop: "30px",
+            marginTop: "30px",
             paddingBottom: "70px",
             borderTopLeftRadius: "20px",
             borderTopRightRadius: "20px",
@@ -69,7 +76,7 @@ function Index() {
           className=""
           style={{
             background: "#000000",
-            paddingTop: "30px",
+            marginTop: "30px",
             paddingBottom: "70px",
             borderTopLeftRadius: "20px",
             borderTopRightRadius: "20px",
@@ -77,12 +84,15 @@ function Index() {
         >
           <Team />
         </div> */}
+
         <div
+          id="home-faq"
           className=""
           style={{
             background: "#f5f5f5",
-            paddingTop: "30px",
+            paddingTop: "50px",
             paddingBottom: "70px",
+
             // borderTopLeftRadius: "20px",
             // borderTopRightRadius: "20px",
           }}

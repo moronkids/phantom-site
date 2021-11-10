@@ -26,32 +26,30 @@ function Navbar() {
             <div style={{ display: "none" }}>{/* <Connect /> */}</div>
             {/* {!wallet_ && <Connect />} */}
             <li>
-              <a href="/menu" target="_blank" rel="noreferrer">
-                SEVEN DEADLY SINS
-              </a>
+              <a href="#home-desc">SEVEN DEADLY SINS</a>
             </li>
             <li>
-              <a href="#home-desc">PROJECT 7DEADLY SINS</a>
+              <a href="#home-project">PROJECT 7DEADLY SINS</a>
             </li>
             <li>
-              <a href="#home-faq">SHOWCASE</a>
+              <a href="#home-showcase">SHOWCASE</a>
             </li>
             <li>
-              <a href="#home-desc">ROADMAP</a>
+              <a href="#home-roadmap">ROADMAP</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#home-desc">TEAM</a>
-            </li>
+            </li> */}
             <li>
               <a href="#home-faq">FAQ</a>
             </li>
             <li>
-              <a href="#home-faq">
+              <a href="#">
                 <img src={Twitter} alt="" width="25" />
               </a>
             </li>
             <li>
-              <a href="#home-faq">
+              <a href="#">
                 <img src={Discord} alt="" width="25" />
               </a>
             </li>

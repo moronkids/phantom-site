@@ -8,7 +8,7 @@ function Faq() {
   const [collapse, setCollapse] = useState([false, 0]);
   return (
     <>
-      <div className="home-team flex-column" id="home-faq">
+      <div className="home-team flex-column">
         {/* <hr /> */}
         <div>
           <h1>ROADMAP</h1>
@@ -17,12 +17,12 @@ function Faq() {
           <VerticalTimeline>
             {/* <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(114 104 141)",
+                borderRight: "7px solid  rgb(81, 188, 106)",
               }}
               date="2011 - present"
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -37,8 +37,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2010 - 2011"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Art Director</h3>
@@ -51,8 +51,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               // date="2008 - 2010"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -66,8 +66,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               // date="2006 - 2008"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -82,8 +82,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               // date="2006 - 2008"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -103,8 +103,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               // date="2006 - 2008"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -119,8 +119,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               // date="2006 - 2008"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -139,8 +139,8 @@ function Faq() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               // date="2006 - 2008"
-              contentStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
-              iconStyle={{ background: "rgb(114 104 141)", color: "#fff" }}
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">

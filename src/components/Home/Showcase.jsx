@@ -5,17 +5,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 // import Swiper core and required modules
-import SwiperCore, { Pagination } from "swiper";
+import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper";
 import Img from "dummy/ImgSwiper";
 // install Swiper modules
-SwiperCore.use([Pagination]);
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 function Faq() {
   const [collapse, setCollapse] = useState([false, 0]);
   return (
     <>
       <div
         className="p-0 m-0 home-showcase flex-column"
-        id="home-faq"
         style={{
           maxWidth: "100vw",
         }}
@@ -24,12 +23,19 @@ function Faq() {
         <div>
           <h1>SHOWCASE</h1>
         </div>
-        <div className="show w-100 d-flex mx-auto">
+        <div className="show w-100 d-flex mx-auto p-sm-0 px-4">
           <Swiper
             spaceBetween={6}
             slidesPerView={1}
             loop={true}
             centeredSlides
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{

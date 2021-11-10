@@ -4,10 +4,7 @@ function Faq() {
   const [collapse, setCollapse] = useState([false, 0]);
   return (
     <>
-      <div
-        className="home-project d-flex flex-column m-auto justify-content-center align-items-center"
-        id="home-project"
-      >
+      <div className="home-project d-flex flex-column m-auto justify-content-center align-items-center">
         {/* <hr /> */}
         <div className="text-center">
           <h1>PROJECT SEVEN DEADLY SINS</h1>
