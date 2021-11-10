@@ -38,8 +38,8 @@ function Index() {
             background: "#f5f5f5",
             paddingTop: "30px",
             paddingBottom: "70px",
-            borderTopLeftRadius: "20px",
-            borderTopRightRadius: "20px",
+            // borderTopLeftRadius: "20px",
+            // borderTopRightRadius: "20px",
           }}
         >
           <Project />
