@@ -68,7 +68,7 @@ const theme = createTheme({
   },
 });
 
-const App = () => {
+const App = (props: any) => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
@@ -88,6 +88,7 @@ const App = () => {
         <WalletProvider wallets={wallets} autoConnect={true}>
           <WalletDialogProvider>
             <Home
+              navbar={props.navbar}
               candyMachineId={candyMachineId}
               config={config}
               connection={connection}

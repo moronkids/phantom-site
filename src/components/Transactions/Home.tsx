@@ -23,10 +23,34 @@ const ConnectButton = styled(WalletDialogButton)`
     box-shadow: unset !important;
     padding: 8px 15px !important;
     background-color: unset !important;
-        font-family: "Poppins", sans-serif !important;
-        font-size: 22px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 22px !important;
     color: white !important;
     `;
+const ConnectButtonPure = styled(WalletDialogButton)`
+    span {
+    box-shadow: unset !important;
+    padding: 8px 15px !important;
+    background-color: unset !important;
+    font-family: "Poppins", sans-serif !important;
+    color: white !important;
+       font-size: 1.1rem;
+    font-weight: bold;
+    },
+    button {
+    box-shadow: unset !important;
+    padding: 8px 15px !important;
+    background-color: unset !important;
+    font-family: "Poppins", sans-serif !important;
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: bold;
+    }
+    span:hover {
+      color: orange !important;
+      border: unset !important;
+    }
+`;
 
 const CounterText = styled.span``; // add your styles here
 
@@ -35,6 +59,7 @@ const MintContainer = styled.div``; // add your styles here
 const MintButton = styled(Button)``; // add your styles here
 
 export interface HomeProps {
+  navbar: any;
   candyMachineId: anchor.web3.PublicKey;
   config: anchor.web3.PublicKey;
   connection: anchor.web3.Connection;
@@ -197,7 +222,9 @@ const Home = (props: HomeProps) => {
       {wallet && <p>Remaining: {itemsRemaining}</p>} */}
 
       <MintContainer>
-        {!wallet_ ? (
+        {!wallet_ ? props.navbar ? (
+          <ConnectButtonPure>CONNECT WALLET</ConnectButtonPure>
+        ) : (
           <ConnectButton>Connect Wallet</ConnectButton>
         ) : (
           <MintButton

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { Hooks } from "providers";
 import { Link } from "react-router-dom";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
@@ -10,6 +10,10 @@ function Navbar() {
   const { setScroll, scroll, barMobile, setBarMobile, wallet_, setWallet_ } =
     useContext(Hooks);
   const ConnectButton = styled(WalletDialogButton);
+  const myRefname = useRef(null);
+  const handleClick = () => {
+    myRefname.current.focus();
+  };
   return (
     <>
       <div
@@ -23,25 +27,27 @@ function Navbar() {
           }}
         >
           <ul className="">
-            <div style={{ display: "none" }}>{/* <Connect /> */}</div>
-            {/* {!wallet_ && <Connect />} */}
+            {/* <div style={{ display: "block" }} ref={myRefname}>
+              {!wallet_ && <Connect />}
+            </div> */}
+
             <li>
-              <a href="#home-desc">SEVEN DEADLY SINS</a>
+              <a href="#home-desc">HOME</a>
             </li>
             <li>
-              <a href="#home-project">PROJECT 7DEADLY SINS</a>
+              <a href="#home-project">ABOUT</a>
             </li>
             <li>
-              <a href="#home-showcase">SHOWCASE</a>
+              <a href="#home-showcase">MERCH SHOP</a>
             </li>
             <li>
-              <a href="#home-roadmap">ROADMAP</a>
+              <a href="#home-roadmap">THE GAME</a>
             </li>
             {/* <li>
               <a href="#home-desc">TEAM</a>
             </li> */}
             <li>
-              <a href="#home-faq">FAQ</a>
+              <a>{!wallet_ && <Connect navbar={true} />}</a>
             </li>
             <li>
               <a href="#">

@@ -7,7 +7,7 @@ function Faq() {
       <div className="home-project d-flex flex-column m-auto justify-content-center align-items-center">
         {/* <hr /> */}
         <div className="text-center">
-          <h1>PROJECT SEVEN DEADLY SINS</h1>
+          <h1>CHARITY AND COMMUNITY WALLET</h1>
         </div>
         <div className="wrap w-100 flex-column mx-auto">
           <div className="desc text-center pb-4">

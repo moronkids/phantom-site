@@ -3,6 +3,7 @@ import IconChar from "assets/img/sevenDeadlySins/icons/771.webp";
 import Menu from "components/Menu";
 import Connect from "components/Transactions";
 import { Hooks } from "providers";
+import ReactPlayer from "react-player/youtube";
 function Banner() {
   const {
     setScroll,
@@ -36,6 +37,13 @@ function Banner() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mx-auto d-flex py-3 justify-content-center align-items-center">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=KT_9aMPMMfU"
+          playing={true}
+          controls={true}
+        />
       </div>
       {/* <Connect /> */}
       {/* <Menu /> */}

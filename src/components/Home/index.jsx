@@ -31,21 +31,8 @@ function Index() {
         >
           <Desc />
         </div>
-        <div
-          id="home-project"
-          className=""
-          style={{
-            background: "#f5f5f5",
-            paddingTop: "30px",
-            paddingBottom: "70px",
-            // borderTopLeftRadius: "20px",
-            // borderTopRightRadius: "20px",
-          }}
-        >
-          <Project />
-        </div>
 
-        <div
+        {/* <div
           id="home-showcase"
           className=""
           style={{
@@ -57,7 +44,7 @@ function Index() {
           }}
         >
           <ShowCase />
-        </div>
+        </div> */}
 
         <div
           id="home-roadmap"
@@ -84,7 +71,19 @@ function Index() {
         >
           <Team />
         </div> */}
-
+        <div
+          id="home-project"
+          className=""
+          style={{
+            background: "#f5f5f5",
+            paddingTop: "30px",
+            paddingBottom: "70px",
+            // borderTopLeftRadius: "20px",
+            // borderTopRightRadius: "20px",
+          }}
+        >
+          <Project />
+        </div>
         <div
           id="home-faq"
           className=""
