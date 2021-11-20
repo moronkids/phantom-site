@@ -13,7 +13,7 @@ function Desc() {
     <>
       <div className="home-desc" id="home-desc">
         <div className="container d-flex flex-column-reverse flex-md-row mx-auto justify-content-center align-items-center">
-          <div className="col-md-6 col-12 text-md-left text-center">
+          <div className="col-md-6 col-12 text-md-left text-left">
             <h1 className="text-left super mb-md-4 mb-0 text-md-left text-center">
               7DEADLY SINS
             </h1>

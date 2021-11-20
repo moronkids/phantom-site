@@ -64,7 +64,7 @@ const ConnectButtonMobile = styled(WalletDialogButton)`
     },
     button {
     box-shadow: unset !important;
-      padding: 0px;
+      padding: 0px !important;
     background-color: unset !important;
     font-family: "Poppins", sans-serif !important;
     color: white !important;

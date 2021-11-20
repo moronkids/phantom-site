@@ -50,6 +50,9 @@ function Navbar() {
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li>
             <li>
+              <a href="#home-faq">FAQ</a>
+            </li>
+            <li>
               <a href="#">
                 <img src={Twitter} alt="" width="25" />
               </a>

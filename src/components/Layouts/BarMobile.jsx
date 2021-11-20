@@ -12,7 +12,7 @@ function BarMobile() {
         <ul>
           <li>
             <Link
-              to="/menu"
+              to="#"
               target="_blank"
               // onClick={() => setBarMobile(!barMobile)}
             >
@@ -20,18 +20,23 @@ function BarMobile() {
             </Link>
           </li>
           <li>
-            <a href="#home-desc" onClick={() => setBarMobile(!barMobile)}>
+            <a href="#" onClick={() => setBarMobile(!barMobile)}>
               ABOUT
             </a>
           </li>
           <li>
-            <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>
+            <a href="#" onClick={() => setBarMobile(!barMobile)}>
               MERCH SHOPE
             </a>
           </li>
           <li>
-            <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>
+            <a href="#" onClick={() => setBarMobile(!barMobile)}>
               THE GAME
+            </a>
+          </li>
+          <li>
+            <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>
+              FAQ
             </a>
           </li>
           <li>
