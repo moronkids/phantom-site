@@ -39,7 +39,7 @@ const ConnectButtonPure = styled(WalletDialogButton)`
     },
     button {
     box-shadow: unset !important;
-
+      padding: 0px !important;
     background-color: unset !important;
     font-family: "Poppins", sans-serif !important;
     color: white !important;
@@ -50,6 +50,9 @@ const ConnectButtonPure = styled(WalletDialogButton)`
       color: orange !important;
       border: unset !important;
 
+    }
+    span {
+      padding: 0px !important;
     }
 `;
 const ConnectButtonMobile = styled(WalletDialogButton)`
