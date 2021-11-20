@@ -47,7 +47,7 @@ function Navbar() {
               <a href="#home-desc">TEAM</a>
             </li> */}
             <li>
-              <a>{!wallet_ && <Connect navbar={true} />}</a>
+              <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li>
             <li>
               <a href="#">

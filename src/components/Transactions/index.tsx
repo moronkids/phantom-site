@@ -89,6 +89,7 @@ const App = (props: any) => {
           <WalletDialogProvider>
             <Home
               navbar={props.navbar}
+              mobile={props.mobile}
               candyMachineId={candyMachineId}
               config={config}
               connection={connection}

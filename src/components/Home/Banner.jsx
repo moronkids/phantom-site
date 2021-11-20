@@ -41,7 +41,7 @@ function Banner() {
       <div className="mx-auto d-flex py-3 justify-content-center align-items-center">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=KT_9aMPMMfU"
-          playing={true}
+          // playing={true}
           controls={true}
         />
       </div>

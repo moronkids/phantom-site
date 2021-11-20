@@ -1,9 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import { Hooks } from "providers";
-
+import Connect from "components/Transactions";
 import { Link } from "react-router-dom";
 function BarMobile() {
-  const { barMobile, setBarMobile } = useContext(Hooks);
+  const { setScroll, scroll, barMobile, setBarMobile, wallet_, setWallet_ } =
+    useContext(Hooks);
   useEffect(() => {}, [barMobile]);
   return (
     <>
@@ -15,18 +16,26 @@ function BarMobile() {
               target="_blank"
               // onClick={() => setBarMobile(!barMobile)}
             >
-              Menu
+              HOME
             </Link>
           </li>
           <li>
             <a href="#home-desc" onClick={() => setBarMobile(!barMobile)}>
-              Description
+              ABOUT
             </a>
           </li>
           <li>
             <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>
-              FAQ
+              MERCH SHOPE
             </a>
+          </li>
+          <li>
+            <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>
+              THE GAME
+            </a>
+          </li>
+          <li>
+            <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>
           </li>
         </ul>
       </div>

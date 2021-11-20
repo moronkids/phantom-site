@@ -30,7 +30,7 @@ const ConnectButton = styled(WalletDialogButton)`
 const ConnectButtonPure = styled(WalletDialogButton)`
     span {
     box-shadow: unset !important;
-    padding: 8px 15px !important;
+
     background-color: unset !important;
     font-family: "Poppins", sans-serif !important;
     color: white !important;
@@ -39,7 +39,7 @@ const ConnectButtonPure = styled(WalletDialogButton)`
     },
     button {
     box-shadow: unset !important;
-    padding: 8px 15px !important;
+
     background-color: unset !important;
     font-family: "Poppins", sans-serif !important;
     color: white !important;
@@ -49,6 +49,35 @@ const ConnectButtonPure = styled(WalletDialogButton)`
     span:hover {
       color: orange !important;
       border: unset !important;
+
+    }
+`;
+const ConnectButtonMobile = styled(WalletDialogButton)`
+    span {
+    box-shadow: unset !important;
+
+    background-color: unset !important;
+    font-family: "Poppins", sans-serif !important;
+    color: white !important;
+       font-size: 1.1rem;
+    font-weight: bold;
+    },
+    button {
+    box-shadow: unset !important;
+      padding: 0px;
+    background-color: unset !important;
+    font-family: "Poppins", sans-serif !important;
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: bold;
+    }
+    span:hover {
+      color: orange !important;
+      border: unset !important;
+
+    }
+    span {
+      font-size: 22px;
     }
 `;
 
@@ -59,6 +88,7 @@ const MintContainer = styled.div``; // add your styles here
 const MintButton = styled(Button)``; // add your styles here
 
 export interface HomeProps {
+  [x: string]: any;
   navbar: any;
   candyMachineId: anchor.web3.PublicKey;
   config: anchor.web3.PublicKey;
@@ -224,6 +254,8 @@ const Home = (props: HomeProps) => {
       <MintContainer>
         {!wallet_ ? props.navbar ? (
           <ConnectButtonPure>CONNECT WALLET</ConnectButtonPure>
+        ) : props.mobile ? (
+          <ConnectButtonMobile>CONNECT WALLET</ConnectButtonMobile>
         ) : (
           <ConnectButton>Connect Wallet</ConnectButton>
         ) : (
