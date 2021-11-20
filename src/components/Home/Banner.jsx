@@ -22,10 +22,10 @@ function Banner() {
           {/* <div className="img"> */}
           {/* <img src={IconChar} alt="" srcset="" /> */}
           {/* </div> */}
-          {/* <div className="desc">
+          <div className="desc">
             8888 Yetis are coming down from the mountains to form the SolYetis.
             Listed on Solanart , FTX and Alpha art.
-          </div> */}
+          </div>
           <div className="box">
             <div className="text">LAUNCHED ON : 13th October 9:30PM UTC</div>
             {wallet_ && (
