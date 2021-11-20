@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import IconChar from "assets/img/sevenDeadlySins/icons/771.webp";
+import Icon from "assets/img/sevenDeadlySins/icons/iconBanner.png";
 import Menu from "components/Menu";
 import Connect from "components/Transactions";
 import { Hooks } from "providers";
@@ -19,9 +20,9 @@ function Banner() {
     <>
       <div className="home-banner ">
         <div className="home-banner-wrapping">
-          {/* <div className="img"> */}
-          {/* <img src={IconChar} alt="" srcset="" /> */}
-          {/* </div> */}
+          <div className="img">
+            <img src={Icon} alt="" srcset="" />
+          </div>
           <div className="desc">
             8888 Yetis are coming down from the mountains to form the SolYetis.
             Listed on Solanart , FTX and Alpha art.
