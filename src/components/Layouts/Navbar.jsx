@@ -47,7 +47,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link href="/thegame">THE GAME</L>
+              <Link href="/thegame">THE GAME</Link>
             </li>
             {/* <li>
               <a href="#home-desc">TEAM</a>
