@@ -12,7 +12,7 @@ function BarMobile() {
         <ul>
           <li>
             <Link
-              to="#"
+              to="/"
               target="_blank"
               // onClick={() => setBarMobile(!barMobile)}
             >
@@ -33,9 +33,9 @@ function BarMobile() {
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setBarMobile(!barMobile)}>
+            <Link to="/thegame" onClick={() => setBarMobile(!barMobile)}>
               THE GAME
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>

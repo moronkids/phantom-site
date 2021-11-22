@@ -32,7 +32,7 @@ function Navbar() {
             </div> */}
 
             <li>
-              <a href="#banner">HOME</a>
+              <Link href="/">HOME</Link>
             </li>
             <li>
               <a href="#home-desc">ABOUT</a>
@@ -47,7 +47,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/thegame">THE GAME</a>
+              <Link href="/thegame">THE GAME</L>
             </li>
             {/* <li>
               <a href="#home-desc">TEAM</a>
