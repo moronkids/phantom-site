@@ -3,7 +3,7 @@
   height: 100%;
 
   &-banner {
-    background-image: url("../../assets/img/banner.webp");
+    background-image: url("../../assets/img/banner.png");
     width: 100%;
     min-height: 900px;
     max-height: fit-content;
@@ -25,9 +25,10 @@
       margin-bottom: 0px;
     }
     &-wrapping {
+      min-height: 900px;
       display: flex;
       margin: 0 auto;
-      justify-content: center;
+      justify-content: flex-end;
       flex-direction: column;
       align-items: center;
       @media (max-width: 524px) {
@@ -112,7 +113,7 @@
       .super {
         font-family: "Gilroy-Heavy", sans-serif;
         font-stretch: condensed;
-        font-size: 4rem;
+        font-size: 2.4rem;
         margin-top: 0px;
         font-weight: 600;
         // color: #00ffa3;
@@ -133,6 +134,9 @@
           #59c173
         ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         // -webkit-text-fill-color: transparent;
+        @media (max-width: 524px) {
+          font-size: 2.1;
+        }
       }
       h1 {
         text-align: center;
@@ -156,27 +160,27 @@
     img {
       border-radius: 35px;
     }
-    ul,
-    ol {
-      // background-position: cover;
-      padding-left: 0px;
-      list-style: none;
-      @media (max-width: 524px) {
-        margin-top: 0px;
-      }
-      div {
-      }
-      li {
-        background-image: url("../../assets/img/bgdesc.webp");
-        background-size: 642.5px;
-        background-repeat: repeat;
-        // backgr
-        padding: 40px 20px;
-        border: 2px solid #b3b3b3;
-        margin-bottom: 20px;
-        border-radius: 10px;
-      }
-    }
+    // ul,
+    // ol {
+    //   // background-position: cover;
+    //   padding-left: 0px;
+    //   list-style: none;
+    //   @media (max-width: 524px) {
+    //     margin-top: 0px;
+    //   }
+    //   div {
+    //   }
+    //   li {
+    //     background-image: url("../../assets/img/bgdesc.webp");
+    //     background-size: 642.5px;
+    //     background-repeat: repeat;
+    //     // backgr
+    //     padding: 40px 20px;
+    //     border: 2px solid #b3b3b3;
+    //     margin-bottom: 20px;
+    //     border-radius: 10px;
+    //   }
+    // }
     .must-pad {
       padding-left: 20px;
     }

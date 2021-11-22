@@ -32,16 +32,22 @@ function Navbar() {
             </div> */}
 
             <li>
-              <a href="#home-desc">HOME</a>
+              <a href="#banner">HOME</a>
             </li>
             <li>
-              <a href="#home-project">ABOUT</a>
+              <a href="#home-desc">ABOUT</a>
             </li>
             <li>
-              <a href="#home-showcase">MERCH SHOP</a>
+              <a
+                href="https://internetkids.shop/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CLOTHING
+              </a>
             </li>
             <li>
-              <a href="#home-roadmap">THE GAME</a>
+              <a href="/thegame">THE GAME</a>
             </li>
             {/* <li>
               <a href="#home-desc">TEAM</a>
@@ -52,13 +58,13 @@ function Navbar() {
             <li>
               <a href="#home-faq">FAQ</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">
                 <img src={Twitter} alt="" width="25" />
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="#">
+              <a href="https://discord.gg/bkWJHedf3X">
                 <img src={Discord} alt="" width="25" />
               </a>
             </li>

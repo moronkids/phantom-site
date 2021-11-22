@@ -56,6 +56,12 @@ function Faq() {
               </Fade>
             );
           })}
+          <h2>
+            <i>
+              For any other questions, please send them in the Internet Kids
+              official discord server.
+            </i>
+          </h2>
         </div>
       </div>
     </>

@@ -8,9 +8,9 @@ function Footer() {
       <div className="footer">
         <div className="footer-wrap">
           <div className="content1">
-            <p class="title">7 Deadly Sins</p>
+            <p class="title">Internet Kids</p>
             <p>
-              Copyright © 7 Deadly Sins powered by{" "}
+              Copyright © Internet Kids powered by{" "}
               <span style={{ color: "#6aff6a" }}>Solana</span>
             </p>
           </div>
@@ -18,12 +18,12 @@ function Footer() {
             {/* <img src={Icon} alt="" srcset="" width="180" height="auto" /> */}
           </div>
           <div className="content3">
-            <a href="https://discord.gg/6rgah5JmAz">
+            <a href="https://discord.gg/bkWJHedf3X">
               <img src={Discord} alt="" width="30" />
             </a>
-            <a href="https://twitter.com/NFTPizzeria">
+            {/* <a href="https://twitter.com/NFTPizzeria">
               <img src={Twitter} alt="" width="30" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

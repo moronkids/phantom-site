@@ -55,12 +55,10 @@ function Faq() {
               iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
-              <h3 className="vertical-timeline-element-title">
-                10% of Public Mint Sold
-              </h3>
+              <h3 className="vertical-timeline-element-title">Q3 & Q4 2021</h3>
               <p>
-                1 Lucky Sinner will be able to order a custom made Sinner NFT
-                from Jeev
+                Start of the Internet Kids Podcast and the idea is born.
+                Creation of NFTs, discord, and website.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -70,14 +68,71 @@ function Faq() {
               iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
               // icon={<WorkIcon />}
             >
-              <h3 className="vertical-timeline-element-title">
-                25% of Public Mint Sold
-              </h3>
+              <h3 className="vertical-timeline-element-title">Q1 2022</h3>
 
-              <p>
-                1 Lucky Sinner will be able to order a custom made Sinner NFT
-                from Jeev{" "}
-              </p>
+              <ul>
+                <li>
+                  Season 1 (January) - 200 NFTs public mint, one piece of
+                  physical merchandise with each NFT, private community discord
+                  channels created, game 1 begins, private podcasts start, first
+                  monthly charitable donation voted on by holders
+                </li>
+                <li>
+                  All Perks for NFT holders will be deployed after Season 1
+                </li>
+                <li>
+                  Private Merch Drop 1 - Only for NFT Holders, Only 25 pieces
+                  made in LA
+                </li>
+                <li>
+                  Season 2 (February)- Second NFTs public mint, one piece of
+                  physical merchandise with each NFT (Amount of NFTs will be
+                  determined soon)
+                </li>
+              </ul>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              // date="2006 - 2008"
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              // icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Q2 2022</h3>
+
+              <ul>
+                <li>
+                  First Event Hosted in Miami or Austin (TBD), First airdrop
+                  rewarding all holders, First giveaway rewarded to one random
+                  winner (Pay for expenses to event, and unique 1/1 NFT)
+                </li>
+                <li>
+                  Continue alternating between public NFT mints with merch
+                  drops, and private merch drops just for NFT holders
+                </li>
+                <li>Game 2 begins after 1000 total NFTs minted</li>
+              </ul>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              // date="2006 - 2008"
+              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
+              // icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Q3 & Q4 2022</h3>
+
+              <ul>
+                <li>
+                  Goal of Hosting at least 3 more events (Cities voted on by NFT
+                  holders)
+                </li>
+                <li>
+                  Continue alternating NFT seasons and private merch drops
+                </li>
+                <li>Game 3 begins after full sell out of 5000 NFTs</li>
+                <li>Host Internet Kids Snowboarding/Skiing Trip</li>
+              </ul>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -87,76 +142,19 @@ function Faq() {
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
-                50% of Public Mint Sold
+                2023 and Beyond
               </h3>
 
-              <p>2 ETH giveaway to the public minters</p>
-              <p>
-                Sinner Merchandise will be created and advertised for Sinner
-                Holders. Lucky Sinners will win free merchandise!
-              </p>
-              <p>
-                1 Lucky Sinner will be able to order a custom made Sinner NFT
-                from Jeev{" "}
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              // date="2006 - 2008"
-              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
-              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                75% of Public Mint Sold
-              </h3>
-
-              <p>
-                1 Lucky Sinner will be able to order a custom made Sinner NFT
-                from Jeev
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              // date="2006 - 2008"
-              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
-              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                90% of Public Mint Sold
-              </h3>
-
-              <p>
-                Floor Sinners will be repurchased and airdropped to HODLers{" "}
-              </p>
-              <p>Sinner discord clans will be established for all to join </p>
-              <p>
-                1 Lucky Sinner will be able to order a custom made Sinner NFT
-                from Jeev{" "}
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              // date="2006 - 2008"
-              contentStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
-              iconStyle={{ background: "rgb(81, 188, 106)", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                100% of Public Mint Sold
-              </h3>
-
-              <p>
-                1 Lucky Sinner will be able to order a custom made Sinner NFT
-                from Jeev
-              </p>
-              <p>Metaverse Expansion </p>
-              <p>Community Wallet Votes (20 ETH)</p>
-              <p>
-                Sinner of the Week (SOTW) will be showcased for our most active
-                Sinners{" "}
-              </p>
+              <ul>
+                <li>
+                  Host concerts, track days, boat days, and more events in
+                  cities with large IK population
+                </li>
+                <li>
+                  Collaborate with large artists and designers to continue
+                  creating badass clothing pieces exclusively for our community
+                </li>
+              </ul>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

@@ -18,14 +18,15 @@ function Banner() {
   useEffect(() => {}, [datas, wallet_]);
   return (
     <>
-      <div className="home-banner ">
+      <div id="banner" className="home-banner ">
         <div className="home-banner-wrapping">
-          <div className="img">
+          {/* <div className="img">
             <img src={Icon} alt="" srcset="" />
-          </div>
+          </div> */}
           <div className="desc">
-            8888 Yetis are coming down from the mountains to form the SolYetis.
-            Listed on Solanart , FTX and Alpha art.
+            Internet Kids <br /> An NFT based community, clothing brand, and
+            movement. <br />
+            Season 1 (200 NFTs) Coming January 2022 <br />
           </div>
           <div className="box">
             <div className="text">LAUNCHED ON : 13th October 9:30PM UTC</div>
@@ -39,13 +40,13 @@ function Banner() {
           </div>
         </div>
       </div>
-      <div className="mx-auto d-flex py-3 justify-content-center align-items-center">
+      {/* <div className="mx-auto d-flex py-3 justify-content-center align-items-center">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=KT_9aMPMMfU"
           // playing={true}
           controls={true}
         />
-      </div>
+      </div> */}
       {/* <Connect /> */}
       {/* <Menu /> */}
       {/* <Menu /> */}

@@ -25,8 +25,11 @@ function BarMobile() {
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => setBarMobile(!barMobile)}>
-              MERCH SHOPE
+            <a
+              href="https://internetkids.shop/"
+              onClick={() => setBarMobile(!barMobile)}
+            >
+              CLOTHING
             </a>
           </li>
           <li>

@@ -11,14 +11,15 @@ function Faq() {
         </div>
         <div className="wrap w-100 flex-column mx-auto">
           <div className="desc text-center pb-4">
-            8 Yetis will go back to the legendary Himalayans mountains in real
-            life. <br /> Your Yeti will give you a chance to win a trip straight
-            back to the Himalayas. <br /> The winners can either choose to
-            receive $10k or the full adventure trip to Himalayas.
+            We will be donating 10% of profit from every mint to a charity that
+            will be voted on by NFT holders. We will also create a community
+            wallet with the goal of funding projects that reward IK NFT holders.
+            Airdrops, giveaways, prizes for winners of The Game and live events
+            will be funded with this wallet.
           </div>
-          <div className="w-75 mx-auto">
+          {/* <div className="w-75 mx-auto">
             <div className="img mx-auto"></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
