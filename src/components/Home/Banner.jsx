@@ -29,7 +29,7 @@ function Banner() {
             Season 1 (200 NFTs) Coming January 2022 <br />
           </div>
           <div className="box">
-            <div className="text">LAUNCHED ON : 13th October 9:30PM UTC</div>
+            <div className="text">LAUNCHED ON : 1st January 2022 UTC</div>
             {wallet_ && (
               <div className="text">{datas?.[0] + "/" + datas?.[1]}</div>
             )}
