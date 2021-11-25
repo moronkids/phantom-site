@@ -1,8 +1,9 @@
 import React, { useContext, useEffect } from "react";
 import { Hooks } from "providers";
 import Connect from "components/Transactions";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 function BarMobile() {
+  const { pathname } = useLocation();
   const { setScroll, scroll, barMobile, setBarMobile, wallet_, setWallet_ } =
     useContext(Hooks);
   useEffect(() => {}, [barMobile]);
@@ -11,18 +12,18 @@ function BarMobile() {
       <div className={`bar-mobile ${barMobile && "active"}`}>
         <ul>
           <li>
-            <Link
-              to="/"
-              target="_blank"
-              // onClick={() => setBarMobile(!barMobile)}
-            >
-              HOME
-            </Link>
+            {pathname === "/" ? (
+              <a href="#banner">HOME</a>
+            ) : (
+              <a href="/#banner">HOME</a>
+            )}
           </li>
           <li>
-            <a href="#" onClick={() => setBarMobile(!barMobile)}>
-              ABOUT
-            </a>
+            {pathname === "/" ? (
+              <a href="#home-desc">ABOUT</a>
+            ) : (
+              <a href="/#home-desc">ABOUT</a>
+            )}
           </li>
           <li>
             <a
@@ -38,9 +39,11 @@ function BarMobile() {
             </Link>
           </li>
           <li>
-            <a href="#home-faq" onClick={() => setBarMobile(!barMobile)}>
-              FAQ
-            </a>
+            {pathname === "/" ? (
+              <a href="#home-faq">FAQ</a>
+            ) : (
+              <a href="/#home-faq">FAQ</a>
+            )}
           </li>
           <li>
             <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>

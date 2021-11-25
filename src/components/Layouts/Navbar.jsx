@@ -1,12 +1,13 @@
 import React, { useContext, useRef, useState } from "react";
 import { Hooks } from "providers";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 import styled from "styled-components";
 import Connect from "components/Transactions";
 import Discord from "assets/img/icons8-discord.svg";
 import Twitter from "assets/img/icons8-twitter.svg";
 function Navbar() {
+  const { pathname } = useLocation();
   const { setScroll, scroll, barMobile, setBarMobile, wallet_, setWallet_ } =
     useContext(Hooks);
   const ConnectButton = styled(WalletDialogButton);
@@ -32,10 +33,18 @@ function Navbar() {
             </div> */}
 
             <li>
-              <Link href="/">HOME</Link>
+              {pathname === "/" ? (
+                <a href="#banner">HOME</a>
+              ) : (
+                <a href="/#banner">HOME</a>
+              )}
             </li>
             <li>
-              <a href="#home-desc">ABOUT</a>
+              {pathname === "/" ? (
+                <a href="#home-desc">ABOUT</a>
+              ) : (
+                <a href="/#home-desc">ABOUT</a>
+              )}
             </li>
             <li>
               <a
@@ -47,7 +56,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link href="/thegame">THE GAME</Link>
+              <Link to="/thegame">THE GAME</Link>
             </li>
             {/* <li>
               <a href="#home-desc">TEAM</a>
@@ -56,7 +65,11 @@ function Navbar() {
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li>
             <li>
-              <a href="#home-faq">FAQ</a>
+              {pathname === "/" ? (
+                <a href="#home-faq">FAQ</a>
+              ) : (
+                <a href="/#home-faq">FAQ</a>
+              )}
             </li>
             {/* <li>
               <a href="#">
