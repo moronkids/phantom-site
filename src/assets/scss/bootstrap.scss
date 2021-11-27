@@ -39,4 +39,20 @@
 // @import "popover";
 // @import "carousel";
 @import "utilities";
+
+.col {
+    h2 {
+        font-size: 18px;
+    }
+}
+.thegame-title {
+    @media (max-width: 524px) {
+        font-size: 20px;
+    }
+}
+.thegame-desc {
+    @media (max-width: 524px) {
+        font-size: 18px;
+    }
+}
 // @import "print";

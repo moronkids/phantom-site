@@ -4,18 +4,23 @@ function TheGame() {
   return (
     <div
       className="container wrap-body"
-      style={{ backgroundColor: "#000000", height: "90vh" }}
+      style={{
+        backgroundColor: "#000000",
+        height: "100%",
+        width: "unset",
+        overflow: "hidden",
+      }}
     >
-      <div className="d-flex flex-column mx-auto col-8 text-center">
+      <div className="d-flex flex-column my-2">
         <h1 className="w-100 text-white text-center p-0 m-0 my-2 py-2">
           The Game
         </h1>
-        <h2 className="w-100 text-white text-center pb-3">
+        <h2 className="thegame-title w-100 text-white text-center pb-3">
           The Game is a interactive puzzle game almost like a scavenger hunt,
           with 3 parts and prizes for 5 total winners. You must be in the IK
           discord and hold an IK NFT to play The Game.
         </h2>
-        <ul className="text-white text-left">
+        <ul className="thegame-desc text-white text-left">
           <li>
             Game 1 will be completely online and only open to the first 200 IK
             NFT Holders. We will release 3 hints after the first 200 NFTs are
@@ -35,7 +40,7 @@ function TheGame() {
             are as follows; first place wins a Tesla Model 3 (or price
             equivalent in SOL), second place wins all expenses paid to one of
             our live events, third place wins 5 SOL and a 1/1 IK NFT. The only
-            rule is to think outside of the box. Good
+            rule is to think outside of the box. Good luck.
           </li>
         </ul>
       </div>
