@@ -71,11 +71,11 @@ function Navbar() {
                 <a href="/#home-faq">FAQ</a>
               )}
             </li>
-            {/* <li>
-              <a href="#">
+            <li>
+              <a href="https://twitter.com/internetkidsio">
                 <img src={Twitter} alt="" width="25" />
               </a>
-            </li> */}
+            </li>
             <li>
               <a href="https://discord.gg/bkWJHedf3X">
                 <img src={Discord} alt="" width="25" />

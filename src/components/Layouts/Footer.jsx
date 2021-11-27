@@ -21,9 +21,9 @@ function Footer() {
             <a href="https://discord.gg/bkWJHedf3X">
               <img src={Discord} alt="" width="30" />
             </a>
-            {/* <a href="https://twitter.com/NFTPizzeria">
+            <a href="https://twitter.com/internetkidsio">
               <img src={Twitter} alt="" width="30" />
-            </a> */}
+            </a>
           </div>
         </div>
       </div>

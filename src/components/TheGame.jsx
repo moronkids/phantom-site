@@ -6,7 +6,7 @@ function TheGame() {
       className="container wrap-body"
       style={{
         backgroundColor: "#000000",
-        height: "100%",
+        height: "90vh",
         width: "unset",
         overflow: "hidden",
       }}
