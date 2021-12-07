@@ -14,10 +14,8 @@ function Desc() {
       <div className="home-desc" id="home-desc">
         <div className="container d-flex flex-column-reverse flex-md-row mx-auto justify-content-center align-items-center">
           <div className="col-md-6 col-12 text-md-left text-left">
-            <h3 className="text-left super mb-md-4 mb-0 text-md-left text-center">
-              Internet Kids Social Club Perks (For IK NFT Holders)
-            </h3>
-            <div className="d-flex ">
+            <h3 className="text-left super mb-md-4 mb-0 text-md-left text-center"></h3>
+            {/* <div className="d-flex ">
               <div className="col-auto pl-0 ml-0">
                 <img src={Dot} alt="" height="34px" width="34px" />
               </div>
@@ -73,24 +71,32 @@ function Desc() {
               <div className="col">
                 <h2 className="pt-0 mt-0 mb-0 pb-0">Access to play The Game</h2>
               </div>
-            </div>
-            {/* <div className="d-flex ">
-              <div className="col-auto pl-0 ml-0">
+            </div> */}
+            <div className="d-flex ">
+              {/* <div className="col-auto pl-0 ml-0">
                 <img src={Dot} alt="" height="34px" width="34px" />
-              </div>
+              </div> */}
               <div className="col">
-                <h2 className="pt-0 mt-0 mb-0 pb-0">7Deadly</h2>
+                <h1 className="pt-0 mt-0 mb-0 pb-0 text-left pb-3">
+                  BIG TIME BIKERS
+                </h1>
                 <p
                   className="pt-0 mt-0"
                   style={{ fontSize: "16px", color: "#8E8E8E" }}
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                  adipisci? Ex incidunt sint in placeat totam qui veniam ipsum?
-                  Dolores vitae nihil et ipsa minima dignissimos voluptate,
-                  placeat esse illum?
+                  The year is 2099. After a nuclear apocalypse, the United
+                  States and most of the world is a desolate wasteland. All
+                  struggle to survive against the dangers of the
+                  post-apocalyptic world including bandits and radioactive
+                  species. One group is aiming to change the horrible quality of
+                  life: the bikers. <br /> The bikers, or Big Time Bikers as
+                  called by the rest of the wasteland, have came together in
+                  order to build a strong community. They hope that together,
+                  they will be able to make the world a sustainable place to
+                  live once again.
                 </p>
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="p-0 m-0 col-md-6 col-12 d-flex mx-auto w-100 justify-content-center align-items-center">
             <img src={url3} alt="" />

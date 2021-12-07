@@ -22,12 +22,12 @@ function BarMobile() {
           </li>
           <li>
             {pathname === "/" ? (
-              <a href="#home-desc">ABOUT</a>
+              <a href="#home-desc">DESCRIPTION</a>
             ) : (
-              <a href="/#home-desc">ABOUT</a>
+              <a href="/#home-desc">DESCRIPTION</a>
             )}
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://internetkids.shop/"
               onClick={() => setBarMobile(!barMobile)}
@@ -39,22 +39,22 @@ function BarMobile() {
             <Link to="/thegame" onClick={() => setBarMobile(!barMobile)}>
               THE GAME
             </Link>
-          </li>
+          </li> */}
           <li>
             {pathname === "/" ? (
-              <a href="#home-faq">FAQ</a>
+              <a href="#home-roadmap">ROADMAP</a>
             ) : (
-              <a href="/#home-faq">FAQ</a>
+              <a href="/#home-roadmap">ROADMAP</a>
             )}
           </li>
           <li>
             <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>
           </li>
           <li className="col-6 d-flex mx-auto">
-            <a href="https://discord.gg/bkWJHedf3X" className="col-3">
+            <a href="https://discord.gg/bkWJHedf3X" className="col-6">
               <img src={Discord} alt="" width="30" />
             </a>
-            <a href="https://twitter.com/internetkidsio" className="col-3">
+            <a href="https://twitter.com/internetkidsio" className="col-6">
               <img src={Twitter} alt="" width="30" />
             </a>
           </li>

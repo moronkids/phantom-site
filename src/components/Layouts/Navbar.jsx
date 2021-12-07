@@ -41,36 +41,32 @@ function Navbar() {
             </li>
             <li>
               {pathname === "/" ? (
-                <a href="#home-desc">ABOUT</a>
+                <a href="#home-desc">DESCRIPTION</a>
               ) : (
-                <a href="/#home-desc">ABOUT</a>
+                <a href="/#home-desc">DESCRIPTION</a>
               )}
             </li>
             <li>
-              <a
-                href="https://internetkids.shop/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                CLOTHING
-              </a>
+              {pathname === "/" ? (
+                <a href="#home-roadmap">ROADMAP</a>
+              ) : (
+                <a href="/#home-roadmap">ROADMAP</a>
+              )}
             </li>
-            <li>
-              <Link to="/thegame">THE GAME</Link>
-            </li>
+
             {/* <li>
               <a href="#home-desc">TEAM</a>
             </li> */}
             <li>
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li>
-            <li>
+            {/* <li>
               {pathname === "/" ? (
                 <a href="#home-faq">FAQ</a>
               ) : (
                 <a href="/#home-faq">FAQ</a>
               )}
-            </li>
+            </li> */}
             <li>
               <a href="https://twitter.com/internetkidsio">
                 <img src={Twitter} alt="" width="25" />

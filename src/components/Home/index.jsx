@@ -48,7 +48,7 @@ function Index() {
 
         <div
           id="home-roadmap"
-          className=""
+          className="p-sm-auto p-2"
           style={{
             background: "rgb(18 18 18 / 0%)",
             marginTop: "30px",

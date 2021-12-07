@@ -23,8 +23,8 @@
       min-height: 5 00px;
       margin-top: 70px;
       margin-bottom: 0px;
-      background-position-y: 25px;
-      background-size: inherit;
+      // background-position-y: 25px;
+      background-size: cover;
     }
     &-wrapping {
       min-height: 900px;
@@ -35,7 +35,8 @@
       align-items: center;
       @media (max-width: 524px) {
         padding: 20px;
-        min-height: 710px;
+        min-height: calc(100vh - 70px);
+        justify-content: center;
       }
       .desc {
         max-width: 800px;
@@ -153,12 +154,12 @@
       h1 {
         text-align: center;
       }
-      color: #ffffff;
-      padding: 30px;
+      // color: #ffffff;
+      // padding: 30px;
       img {
         max-width: 400px;
         @media (max-width: 968px) {
-          max-width: 280px;
+          max-width: 100%;
         }
       }
     }

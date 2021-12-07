@@ -8,7 +8,7 @@ function Faq() {
   const [collapse, setCollapse] = useState([false, 0]);
   return (
     <>
-      <div className="home-team flex-column w-100">
+      <div className="home-team flex-column w-100 p-sm-auto p-0 m-sm-auto m-0">
         {/* <hr /> */}
         <div>
           <h1>ROADMAP</h1>
