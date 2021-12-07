@@ -8,10 +8,10 @@ function Footer() {
       <div className="footer">
         <div className="footer-wrap">
           <div className="content1">
-            <p class="title">Internet Kids</p>
+            <p class="title">Big Time Bikers</p>
             <p>
-              Copyright © Internet Kids powered by{" "}
-              <span style={{ color: "#6aff6a" }}>Solana</span>
+              Copyright © Big Time Bikers
+              <span style={{ color: "#6aff6a" }}> Solana</span>
             </p>
           </div>
           <div className="content2">

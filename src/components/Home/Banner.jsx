@@ -24,9 +24,14 @@ function Banner() {
             <img src={Icon} alt="" srcset="" />
           </div> */}
           <div className="desc">
-            Internet Kids <br /> An NFT based community, clothing brand, and
-            movement. <br />
-            Season 1 (200 NFTs) Coming January 2022 <br />
+            The year is 2099. After a nuclear apocalypse, the United States and
+            most of the world is a desolate wasteland. All struggle to survive
+            against the dangers of the post-apocalyptic world including bandits
+            and radioactive species. One group is aiming to change the horrible
+            quality of life: the bikers. <br /> The bikers, or Big Time Bikers
+            as called by the rest of the wasteland, have came together in order
+            to build a strong community. They hope that together, they will be
+            able to make the world a sustainable place to live once again.
           </div>
           <div className="box">
             <div className="text">LAUNCHED ON : 1st January 2022 UTC</div>

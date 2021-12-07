@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import Img2 from "assets/img/img-logo-desc-2.png";
 import { Hooks } from "providers";
 import Dot from "assets/img/sevenDeadlySins/icons/plus.gif";
-import url3 from "assets/img/sevenDeadlySins/internetkids_gif.gif";
+import url3 from "assets/img/img_hero.png";
 function Desc() {
   const { barMobile, setBarMobile } = useContext(Hooks);
   return (

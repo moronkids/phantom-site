@@ -71,7 +71,7 @@ function Index() {
         >
           <Team />
         </div> */}
-        <div
+        {/* <div
           id="home-project"
           className=""
           style={{
@@ -83,8 +83,8 @@ function Index() {
           }}
         >
           <Project />
-        </div>
-        <div
+        </div> */}
+        {/* <div
           id="home-faq"
           className=""
           style={{
@@ -97,7 +97,7 @@ function Index() {
           }}
         >
           <Faq />
-        </div>
+        </div> */}
       </div>
     </div>
   );
