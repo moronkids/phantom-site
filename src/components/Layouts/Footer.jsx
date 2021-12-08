@@ -1,5 +1,4 @@
 import React from "react";
-import Icon from "assets/img/pizzaria.png";
 import Discord from "assets/img/icons8-discord.svg";
 import Twitter from "assets/img/icons8-twitter.svg";
 function Footer() {
